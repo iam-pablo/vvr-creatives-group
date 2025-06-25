@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VVR CREATIVES GROUP</title>
+        <link href="styles.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- <script href="app.js"></script> -->
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <!-- Sticky Navigation Bar -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <!-- Logo (optional) -->
+                <div class="logo">VVR</div>
+                
+                <!-- Hamburger Menu (Mobile Only) -->
+                <button class="hamburger" aria-label="Menu">
+                    <i class="fas fa-bars"></i> <!-- Font Awesome icon -->
+                </button>
+                
+                <!-- Desktop Menu -->
+                <div class="nav-links">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about-us" class="nav-link">About Us</a>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                    <a href="#contact-us" class="nav-link">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+
+        <section class="content-wrap banner" alt="hero" id="home">
+            <!-- <h1 class="banner">VVR CREATIVES GROUP</h1> -->
+            <img src="imgs/logo.jpg" alt="logo-pic" class="banner-img">
+        </section>
+        <section class="content-wrap" alt="about-us" id="about-us">
+            <h2 class="align-center">ABOUT US</h2>
+            <p class="align-center pwidth">VVR CREATIVES HUB IS A CREATIVE CONSULTING AGENCY AND MEDIA HOUSE THAT RENDERS NUMEROUS DIGITAL CONTENT SOLUTION.</p>
+            <h2 class="align-center" style="margin-top: 70px;">OUR SERVICES</h2>
+            <section class="services-cont" alt="service-container">
+
+                <div class="border services-item">
+                    <h1 class="align-center"><i class="fa-solid fa-video fa-xl"></i></h1>
+                    <h3 class="align-center">VIDEOGRAPHY</h3>
+                </div>
+
+                <div class="border services-item">
+                    <h1 class="align-center"><i class="fa-solid fa-camera fa-xl"></i></h1>
+                    <h3 class="align-center">PHOTOGRAPHY</h3>
+                </div>
+
+                <div class="border services-item">
+                    <h1 class="align-center"><i class="fa-solid fa-clapperboard fa-xl"></i></h1>
+                    <h3 class="align-center">CREATIVE DIRECTOR</h3>
+                </div>
+
+                <div class="border services-item">
+                    <h1 class="align-center"><i class="fa-solid fa-hashtag fa-xl"></i></h1>
+                    <h3 class="align-center">SOCIAL MEDIA MANAGEMENT</h3>
+                </div>
+            </section>
+        </section>
+
+        <section class="content-wrap" alt="portfolio-section" id="portfolio">
+            <h2 class="align-center">OUR PORTFOLIO</h2>
+            <p class="align-center pwidth">From festivals, weddings, to private corporate functions. We have done to the best of our abilities, never compromising the quality of our work and the quality experience we deliver to our clients.<br><br>Feel free to browse through our catalogue.</p>
+            
+            <section class="portfolio-container" alt="portfolio-container">
+                    <div class="portfolio-hero" id="photos">
+                        <h3 class="align-center photo-bg">PHOTOGRAPHY</h3>
+                    </div>
+                    <div class="portfolio-hero" id="videos">
+                        <h3 class="align-center vid-bg">VIDEOGRAPHY</h3>
+                    </div>
+            </section>
+        </section>
+        <!-- end of portfolio -->
+        <!-- contact section -->
+        <section class="content-wrap" alt="contact-section" id="contact-us">
+            <h2 class="align-center">CONTACT US</h2>
+            <p class="align-center pwidth">Feel free to contact us by filling the contac form below or sending an email to: <a href="mailto:">example@vvrcreatives.group</a></p>
+        </section>
+        <footer class="footer">
+            <a><img src="/imgs/logo.jpg" class="footer-logo"></a>
+            <section class="footer-sm-container">
+                <a href=""><i class="fa-brands fa-instagram" style="color:#000000"></i></a>
+                <a href=""><i class="fa-brands fa-instagram fa-2xs" style="color:#000000"></i></a>
+            </section>
+        </footer>
+    </body>
+</html>

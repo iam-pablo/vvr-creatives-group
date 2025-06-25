@@ -1,0 +1,27 @@
+{
+    "photography" : [
+        {
+            "id" : 1,
+            "name" : "Commercial",
+            "innerWeb" : "<div class='work-container'><h1>Commercial</h1></div>"
+        },{
+            "id" : 2,
+            "name" : "Events",
+            "innerWeb" :"<div class='work-container'><h1>Events</h1></div>"
+        },{
+            "id" : 3,
+            "name" : "Weddings",
+            "innerWeb" : "<div class='work-container'><h1>Weddings</h1></div>"
+        },{
+            "id" : 4,
+            "name" : "Festivals",
+            "innerWeb" : "<div class='work-container'><h1>Festivals</h1></div>"
+        }
+    ],
+    "videography" : [
+        {
+            "id" : 1,
+            "name" : "video",
+            "innerWeb" :"<div class='work-container'><h1>Video</h1></div>"}
+    ]
+}
