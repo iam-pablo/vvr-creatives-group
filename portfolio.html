@@ -9,6 +9,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- <script href="app.js"></script> -->
         <script src="script.js"></script>
+        <script src="app.js"></script>
+        <script async src="//www.instagram.com/embed.js"></script>
 
     </head>
     <body>
@@ -25,10 +27,10 @@
                 
                 <!-- Desktop Menu -->
                 <div class="nav-links">
-                    <a href="#home" class="nav-link">Home</a>
-                    <a href="#about-us" class="nav-link">About Us</a>
-                    <a href="#portfolio" class="nav-link">Portfolio</a>
-                    <a href="#contact-us" class="nav-link">Contact Us</a>
+                    <a href="index.html#home" class="nav-link">Home</a>
+                    <a href="index.html#about-us" class="nav-link">About Us</a>
+                    <a href="index.html#portfolio" class="nav-link">Portfolio</a>
+                    <a href="index.html#contact-us" class="nav-link">Contact Us</a>
                 </div>
             </div>
         </nav>
@@ -40,29 +42,27 @@
                 <!-- commercial -->
                 <div class='work-container'>
                     <h1>Commercial</h1>
-                    <section>
-                        <section alt="potrait-photos">
-
+                        <section class="gallery-container" id="commercial" alt="commercial-photos">
+                            <div class="gallery-item">
+                                <img src="https://live.staticflickr.com/65535/54612964875_e1e45b76cc.jpg" alt="${image.title}">
+                            </div>
                         </section>
-                        <section alt="horizontal-photos">
-
-                        </section>
-                    </section>
                 </div>
                 <!-- events -->
                 <div class='work-container'>
                     <h1>Events</h1>
-                    <section></section>
+                    <section class="gallery-container" id="event" alt="events-photos">
+                    </section>
                 </div>
                 <!-- weddings -->
                 <div class='work-container'>
                     <h1>Weddings</h1>
-                    <section></section>
+                    <section class="gallery-container" id="wedding"></section>
                 </div>
                 <!-- festivals -->
                 <div class='work-container'>
                     <h1>Festivals</h1>
-                    <section></section>
+                    <section class="gallery-container" id="festival"></section>
                 </div>
             </section>
 
