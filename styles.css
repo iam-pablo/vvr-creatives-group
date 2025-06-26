@@ -271,7 +271,7 @@ body {
     margin: 0 auto;
 }
 
-#photos-bg {
+.photos-bg {
     background-image: url(https://live.staticflickr.com/65535/54612964875_e1e45b76cc.jpg);
     background-size: cover;
     background-position: center;
@@ -280,7 +280,7 @@ body {
     background-blend-mode: overlay;
 }
 
-#videos-bg {
+.videos-bg {
     background-image: url(https://live.staticflickr.com/65535/54613037100_72d9afd4a1_b.jpg);
     background-size: cover;
     background-position: center;
